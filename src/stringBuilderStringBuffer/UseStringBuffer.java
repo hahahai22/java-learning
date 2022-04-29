@@ -9,6 +9,18 @@ package stringBuilderStringBuffer;
  * 查看长度
  * 替换内容
  * 插入内容
+ *
+ *
+ * string创建的字符串长度和内容都不可以修改，因此有了StringBuilder和StringBuffer类
+ *
+ * 对String对象进行操作，会生成新的String对象，效率低，会消耗大量的内存存储空间。
+ * StringBuilder和StringBuffer不会生成新的字符串对象，是直接操作原来的字符串内容。
+ *
+ * StringBuilder是非线程安全的
+ *
+ * StringBuffer是线程安全的。
+ *
+ * StringBuilder比StringBuffer效率高。
  */
 public class UseStringBuffer {
     public static void main(String[] args) {
