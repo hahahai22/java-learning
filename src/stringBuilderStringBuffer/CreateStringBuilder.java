@@ -4,6 +4,7 @@ package stringBuilderStringBuffer;
  * @author 焦海龙
  * @version 2021.2
  * @date 2022/4/29 11:12
+ * StringBuilder提供了四个构造方法，创建StringBuilder对象
  *
  */
 public class CreateStringBuilder {
