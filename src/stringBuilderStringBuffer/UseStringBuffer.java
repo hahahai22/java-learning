@@ -4,6 +4,7 @@ package stringBuilderStringBuffer;
  * @author 焦海龙
  * @version 2021.2
  * @date 2022/4/29 11:46
+ * StringBuffer的实例化
  */
 public class UseStringBuffer {
     public static void main(String[] args) {
