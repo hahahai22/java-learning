@@ -5,6 +5,10 @@ package stringBuilderStringBuffer;
  * @version 2021.2
  * @date 2022/4/29 11:46
  * StringBuffer的实例化
+ * 查看容量
+ * 查看长度
+ * 替换内容
+ * 插入内容
  */
 public class UseStringBuffer {
     public static void main(String[] args) {
