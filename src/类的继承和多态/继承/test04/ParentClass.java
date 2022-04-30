@@ -5,7 +5,7 @@ package 类的继承和多态.继承.test04;
  * @version 2021.2
  * @date 2022/4/30 12:23
  */
-public class ParentClass {
+public class ParentClass extends Object{
     public String name = "父类成员属性";
 
     public void method() {
