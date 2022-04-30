@@ -4,7 +4,7 @@ package 类的继承和多态.继承.test01;
  * @author 焦海龙
  * @version 2021.2
  * @date 2022/4/29 23:49
- *
+ * 子类继承父类中的所有的非私有属性（不能继承父类的构造方法，可以通过super关键字访问）
  */
 public class Test {
     public static void main(String[] args) {

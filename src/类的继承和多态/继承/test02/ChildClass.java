@@ -13,7 +13,7 @@ public class ChildClass extends ParentClass {
         return "子类重写父类的方法";
     }
 
-    // 子类调用父类被子类重写的父类的方法
+    // 使用super关键字，子类调用父类被子类重写的父类中的方法
     public void callParentMethod() {
         System.out.println("调用父类中被重写的方法：" + super.parentMethod());
     }
